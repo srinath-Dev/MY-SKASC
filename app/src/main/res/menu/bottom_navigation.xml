@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navi_home"
+        android:icon="@drawable/hreatfrag"
+        android:title=""/>
+
+    <item
+        android:id="@+id/navi_event"
+        android:icon="@drawable/eventfrag"
+
+        android:title=""/>
+
+    <item
+        android:id="@+id/navi_acadamics"
+        android:icon="@drawable/glclsfrag"
+        android:title=""/>
+
+    <item
+
+        android:id="@+id/navi_profile"
+        android:icon="@drawable/profilfrag"
+        android:title=""/>
+
+    <item
+        android:id="@+id/navi_ebook"
+        android:icon="@drawable/bookfrag"
+        android:title=""/>
+
+
+
+
+
+</menu>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/logine"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:hint="User_Id"
+
+
+        android:textColorHint="#ffffff"
+
+        android:gravity="center"
+        android:background="@drawable/editbox"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+
+
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:hint="Password"
+
+
+        android:textColorHint="#ffffff"
+
+        android:gravity="center"
+        android:background="@drawable/editbox"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/loginbox"
+        android:gravity="center"
+
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="22dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/registButt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/registerbut"
+        android:text="REGISTER"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/studButt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="580dp"
+        android:background="@drawable/registerbut"
+        android:text="Student"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

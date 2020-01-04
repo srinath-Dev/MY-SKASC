@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    tools:context=".ContactDetails.FourthActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:fontFamily="serif"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:text="tamil department staff"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="Dr_r_vijayasamundeswari"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="Dr_k_kathirvel"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewgth"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="Dr_p_mohan"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewqwr"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="mr_a_chandrasekar"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewm"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="dr_m_mehmudha"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewhni11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="dr_t_myvizhi"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewkj11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="dr_v_sentamil_selvi"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewgt"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="mmko"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewgfu11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="dr_p_silambarasan"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/tamc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/tamm9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ContactDetails.TwentyfifthActivity"
+    android:background="#ffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingBottom="10dp"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:text="Business Administration with CA department staff"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ht"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. C. JULIAN GNANA DHAS"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/hc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call" />
+
+                <Button
+                    android:id="@+id/hm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/pt"
+                    android:layout_width="258dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="0dp"
+                    android:text="MRS. P. DEVIKA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/pm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/kt"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="MRS.S. SUBHASHINI"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/km1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/ktext"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="MRS.G. BRINDHA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/km2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/dtextview"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. M. RAJESH"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/dc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/dm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/mtextView"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="MRS.M. MANJULA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/sc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/sm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/katextView"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="MS.S. AARTHY"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/kc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/km3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/vgtextView"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="MRS.S. PRIYANKA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/vc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/vm1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/vgwtextView"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingStart="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. T. PRAKASH"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/vwqc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/vmwq1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button37"
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:text="hj"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ContactDetails.TwentysecondActivity"
+    android:background="#ffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:fontFamily="serif"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:text="Management department staff"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. P. RAJAN"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonbnm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/buttonghb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewm"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF K. GEETHA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonsd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/buttones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewqwr"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. S. MAHALAKSHMI"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonfg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button40hu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewgt"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. J. MARYSARANYA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonfr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/buttongth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewgth"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. P. NIRMALA SHINY"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/buttonj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button40vg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewkj11"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. C. BALAJI VISWANATH"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button41jk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/button40mk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="258dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="13dp"
+                    android:text="PROF. S. SUVARNA"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/background_dark"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="call"
+                    tools:ignore="HardcodedText" />
+
+                <Button
+                    android:id="@+id/buttonghjk40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_weight="1"
+                    android:text="mail"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ContactDetails.ThirdActivity"
+    android:background="#ffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="DEPARTMENTS"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="978dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1011dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:orientation="vertical"></LinearLayout>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/button16"
+                    android:layout_marginEnd="20dp"
+                    android:text="French" />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Tamil" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="73dp"
+                    android:text="Hindi" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button11"
+                    android:text="english" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="129dp"
+                    android:text="Mathematics &amp; Statistics" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button13"
+                    android:text="computer science" />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="191dp"
+                    android:text="csa ss" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="263dp"
+                    android:text="computer technology" />
+
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button15"
+                    android:text="information technology" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button18"
+                    android:text="bca &amp; msc ss" />
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="334dp"
+                    android:text="ecs" />
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button33"
+                    android:text="costume design &amp; fashion" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_centerVertical="true"
+                    android:text="commerce ca,ba &amp; mcom (ib)" />
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button24"
+                    android:text="commerce af &amp; bi" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginBottom="402dp"
+                    android:text="commerce bps &amp; cm" />
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_marginBottom="337dp"
+                    android:text="commerce it,pa&amp;e.com" />
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignBottom="@+id/button25"
+                    android:layout_alignStart="@+id/button16"
+                    android:text="management" />
+
+                <Button
+                    android:id="@+id/button27"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_marginBottom="246dp"
+                    android:text="business administration with ca" />
+
+                <Button
+                    android:id="@+id/button28"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_alignTop="@+id/button27"
+                    android:text="psychology" />
+
+                <Button
+                    android:id="@+id/button29"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_marginBottom="156dp"
+                    android:text="tourism and travel management" />
+
+                <Button
+                    android:id="@+id/button30"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button20"
+                    android:text="chsm" />
+
+                <Button
+                    android:id="@+id/button31"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_centerVertical="true"
+                    android:text="commerce" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignStart="@+id/button3"
+                    android:layout_alignTop="@+id/button34"
+                    android:text="public administration" />
+
+                <Button
+                    android:id="@+id/button33"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginTop="392dp"
+                    android:text="bioscience" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="150dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_marginBottom="81dp"
+                    android:text="physical director" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:layout_width="150dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="librarian" />
+
+                <Button
+                    android:id="@+id/button36"
+                    android:layout_width="150dp"
+                    android:layout_height="80dp"
+                    android:layout_alignStart="@+id/button16"
+                    android:layout_alignTop="@+id/button29"
+                    android:text="msw" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:text="ik" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.aborteddeveloperse.skascfinal.Fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/bar"
+        android:background="@drawable/topfrag"/>
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MY SKASC"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/postButt"
+            android:layout_width="54dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/postbut" />
+
+
+    </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_width="398dp"
+        android:layout_height="489dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="7dp"
+        android:src="@drawable/backbox" />
+
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="160dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/myproicon" />
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/contacts" />
+
+    <Button
+        android:id="@+id/butProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/myprfiletxtbox"
+        android:text="Edit Profile"
+        android:textColor="#ffff"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/butContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/myprfiletxtbox"
+        android:text="Contacts"
+        android:textColor="#ffff"
+        android:textSize="18dp"/>
+</RelativeLayout>

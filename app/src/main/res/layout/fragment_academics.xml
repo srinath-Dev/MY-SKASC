@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/academicdash"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.aborteddeveloperse.skascfinal.Fragment.AcademicsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:id="@+id/ButtonClass"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/myklass"
+        />
+
+    <ImageButton
+        android:id="@+id/ButtonMy"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="150dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/glroom"
+        />
+
+    <ImageButton
+        android:id="@+id/ButtonExam"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="360dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/exmboard"
+        />
+
+    <ImageButton
+        android:id="@+id/ButtonWeb"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="360dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/web" />
+
+
+</FrameLayout>

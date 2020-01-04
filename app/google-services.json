@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308406304169",
+    "firebase_url": "https://skasccome.firebaseio.com",
+    "project_id": "skasccome",
+    "storage_bucket": "skasccome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308406304169:android:4b54b1f376aa09e3",
+        "android_client_info": {
+          "package_name": "com.aborteddeveloperse.skascfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308406304169-vjj0nac3pf9d3442lua3pi0aaahk53us.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt8IhIfRuXMeObhIiugYPKlVnYX7y1Yjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308406304169-vjj0nac3pf9d3442lua3pi0aaahk53us.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
